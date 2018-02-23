@@ -49,6 +49,7 @@
         "typicms/news": "^3.0",
         "typicms/objects": "~3.0.0",
         "typicms/pages": "~3.0.0",
+        "typicms/projects": "^3.0",
         "typicms/roles": "~3.0.0",
         "typicms/settings": "~3.0.0",
         "typicms/sitemap": "~3.0.0",

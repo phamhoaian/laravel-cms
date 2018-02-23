@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5f83fd42f91617e8194d14ac73f3ade",
+    "content-hash": "202f0d61536870c671d6c7088a4a55ca",
     "packages": [
         {
             "name": "adamwathan/bootforms",
@@ -3571,6 +3571,42 @@
                 }
             ],
             "time": "2018-01-09T10:22:37+00:00"
+        },
+        {
+            "name": "typicms/projects",
+            "version": "3.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypiCMS/Projects.git",
+                "reference": "45dde52f8e0e5d5464097d38390e21dee2efcdcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypiCMS/Projects/zipball/45dde52f8e0e5d5464097d38390e21dee2efcdcb",
+                "reference": "45dde52f8e0e5d5464097d38390e21dee2efcdcb",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.5.0",
+                "typicms/tags": "~3.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TypiCMS\\Modules\\Projects\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel De Backer",
+                    "email": "sdebacker@gmail.com"
+                }
+            ],
+            "time": "2018-01-29T12:19:51+00:00"
         },
         {
             "name": "typicms/roles",
