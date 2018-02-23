@@ -10700,12 +10700,6 @@ button.close {
   border-bottom-left-radius: 0;
 }
 
-@media (min-width: 768px) {
-  .small-container .alert {
-    margin-top: -31px;
-  }
-}
-
 .fancybox-enabled {
   overflow: hidden;
 }
@@ -13599,12 +13593,6 @@ h1 a:hover {
 }
 
 .noscroll {
-  overflow: hidden;
-}
-
-.text-truncatable {
-  white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
 }
 
