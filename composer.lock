@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2791261a62896bb8630a5bc1f9aee4d1",
+    "content-hash": "a5f83fd42f91617e8194d14ac73f3ade",
     "packages": [
         {
             "name": "adamwathan/bootforms",
@@ -3719,6 +3719,41 @@
                 }
             ],
             "time": "2018-01-09T10:02:21+00:00"
+        },
+        {
+            "name": "typicms/tags",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypiCMS/Tags.git",
+                "reference": "be5b43ead9208987524bc80f51a243bbce8e1030"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypiCMS/Tags/zipball/be5b43ead9208987524bc80f51a243bbce8e1030",
+                "reference": "be5b43ead9208987524bc80f51a243bbce8e1030",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TypiCMS\\Modules\\Tags\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel De Backer",
+                    "email": "sdebacker@gmail.com"
+                }
+            ],
+            "time": "2018-01-23T13:21:25+00:00"
         },
         {
             "name": "typicms/translations",

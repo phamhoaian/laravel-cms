@@ -53,6 +53,7 @@
         "typicms/settings": "~3.0.0",
         "typicms/sitemap": "~3.0.0",
         "typicms/slides": "^3.0",
+        "typicms/tags": "^3.0",
         "typicms/translations": "~3.0.0",
         "typicms/users": "~3.0.0",
         "typidesign/laravel-artisan-translations": "~1.0.0"
