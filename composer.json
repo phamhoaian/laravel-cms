@@ -38,6 +38,7 @@
         "spatie/laravel-translatable": "~2.0.0",
         "symfony/event-dispatcher": "~3.0",
         "typicms/blocks": "~3.0.0",
+        "typicms/contacts": "^3.0",
         "typicms/core": "~3.0.0",
         "typicms/dashboard": "~3.0.0",
         "typicms/files": "~3.0.0",
@@ -51,6 +52,7 @@
         "typicms/roles": "~3.0.0",
         "typicms/settings": "~3.0.0",
         "typicms/sitemap": "~3.0.0",
+        "typicms/slides": "^3.0",
         "typicms/translations": "~3.0.0",
         "typicms/users": "~3.0.0",
         "typidesign/laravel-artisan-translations": "~1.0.0"

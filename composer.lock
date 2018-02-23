@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a553b1b427237cf75d1a4f9fd5b8232c",
+    "content-hash": "2791261a62896bb8630a5bc1f9aee4d1",
     "packages": [
         {
             "name": "adamwathan/bootforms",
@@ -1230,6 +1230,55 @@
                 "psr-3"
             ],
             "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
+            "name": "msurguy/honeypot",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msurguy/Honeypot.git",
+                "reference": "861deefc8a4cc13b9a73820aba92db21c32a7159"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msurguy/Honeypot/zipball/861deefc8a4cc13b9a73820aba92db21c32a7159",
+                "reference": "861deefc8a4cc13b9a73820aba92db21c32a7159",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "4.*|5.*",
+                "illuminate/support": "4.*|5.*",
+                "illuminate/translation": "4.*|5.*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Msurguy\\Honeypot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maksim Surguy",
+                    "email": "m.surguy@gmail.com"
+                }
+            ],
+            "description": "Honeypot spam prevention",
+            "keywords": [
+                "Forms",
+                "Honeypot",
+                "laravel",
+                "spam"
+            ],
+            "time": "2017-01-17T19:43:23+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -3107,6 +3156,43 @@
             "time": "2018-01-09T09:59:51+00:00"
         },
         {
+            "name": "typicms/contacts",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypiCMS/Contacts.git",
+                "reference": "1b5b45af2ae13f39ae4cf8d6d84b0cc3dc2b18dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypiCMS/Contacts/zipball/1b5b45af2ae13f39ae4cf8d6d84b0cc3dc2b18dc",
+                "reference": "1b5b45af2ae13f39ae4cf8d6d84b0cc3dc2b18dc",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.5.0",
+                "msurguy/honeypot": "~1.0.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TypiCMS\\Modules\\Contacts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel De Backer",
+                    "email": "sdebacker@gmail.com"
+                }
+            ],
+            "description": "A public form for contact requests and a back office interface to manage them.",
+            "time": "2018-01-09T10:21:47+00:00"
+        },
+        {
             "name": "typicms/core",
             "version": "3.0.28",
             "source": {
@@ -3598,6 +3684,41 @@
                 }
             ],
             "time": "2018-01-09T10:02:17+00:00"
+        },
+        {
+            "name": "typicms/slides",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypiCMS/Slides.git",
+                "reference": "4d37ace26546456b520649fd79cf9791c6a6870d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypiCMS/Slides/zipball/4d37ace26546456b520649fd79cf9791c6a6870d",
+                "reference": "4d37ace26546456b520649fd79cf9791c6a6870d",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TypiCMS\\Modules\\Slides\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel De Backer",
+                    "email": "sdebacker@gmail.com"
+                }
+            ],
+            "time": "2018-01-09T10:02:21+00:00"
         },
         {
             "name": "typicms/translations",
