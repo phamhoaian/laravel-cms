@@ -38,7 +38,7 @@
         <div class="mo-container">
             @include('core::public._main-navbar')
             <!-- MAIN CONTENT -->
-            @yield('main')
+            @yield('content')
             <!-- END MAIN CONTENT -->
         </div>
     </div>

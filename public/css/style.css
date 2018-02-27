@@ -1028,7 +1028,7 @@ table#our-culture p {
     margin-right: 20px;
     margin-top: 20px;
 }
-.news-list .news-summary {
+.news-list .item-summary {
     line-height: 1.5;
 }
 @media only screen and (max-width: 1280px) {
@@ -1459,4 +1459,11 @@ body.is-applied .modal-content {
 }
 .btn-group-prev-next .btn-next {
     float: right;
+}
+ul.pagination {
+    text-align: center;
+}
+ul.pagination li {
+    display: inline-block;
+    margin: 0 10px;
 }

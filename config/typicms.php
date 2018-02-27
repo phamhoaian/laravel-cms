@@ -36,7 +36,7 @@ return [
     |
     */
     'news' => [
-        'per_page' => 50,
+        'per_page' => 4,
     ],
 
     /*

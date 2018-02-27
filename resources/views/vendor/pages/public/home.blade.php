@@ -4,7 +4,7 @@
 <h1 class="site-title">@include('core::public._site-title')</h1>
 @endsection
 
-@section('page')
+@section('content')
 
     @if($page->image)
         {!! $page->present()->thumb(200, 200) !!}
