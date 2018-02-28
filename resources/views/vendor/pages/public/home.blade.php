@@ -7,9 +7,20 @@
 @push('css')
     <link href="{{ app()->isLocal() ? asset('css/bannerscollection_zoominout.css') : asset(elixir('css/bannerscollection_zoominout.css')) }}" rel="stylesheet">
     <link href="{{ app()->isLocal() ? asset('css/animate.css') : asset(elixir('css/animate.css')) }}" rel="stylesheet">
+    <style type="text/css">
+        body {
+            width:100%;
+            height:100%;
+            margin:0;
+            padding:0;
+            overflow-x:hidden;
+        }
+    </style>
 @endpush
 
 @push('js')
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <script src="{{ asset('js/bannerscollection_zoominout.js') }}"></script>
     <script src="{{ asset('js/jquery.ui.touch-punch.min.js') }}"></script>
     <script src="{{ asset('js/wow.min.js') }}"></script>
@@ -31,6 +42,8 @@
     @if ($slides = Slides::all() and $slides->count())
         @include('slides::public._slider', ['items' => $slides])
     @endif
+
+    @block('company')
 
 {{--
     @if ($latestNews = News::latest(3) and $latestNews->count())

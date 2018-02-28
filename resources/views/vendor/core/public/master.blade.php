@@ -61,13 +61,12 @@
 
     <!-- @include('core::_navbar') -->
 
-    <script src="@if(app()->environment('production')){{ asset(elixir('js/public.js')) }}@else{{ asset('js/public.js') }}@endif"></script>
+    {{-- <script src="@if(app()->environment('production')){{ asset(elixir('js/public.js')) }}@else{{ asset('js/public.js') }}@endif"></script> --}}
+    @stack('js')
     <script src="@if(app()->environment('production')){{ asset(elixir('js/common.js')) }}@else{{ asset('js/common.js') }}@endif"></script>
     @if (Request::input('preview'))
     <script src="{{ asset('js/previewmode.js') }}"></script>
     @endif
-
-    @stack('js')
 
 </body>
 
