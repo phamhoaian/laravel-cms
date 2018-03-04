@@ -222,4 +222,4 @@
 		return $.scrollSpy($(this), options);
 	};
 
-});
+})(jQuery);

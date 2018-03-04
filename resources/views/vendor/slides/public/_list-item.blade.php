@@ -1,1 +1,1 @@
-<li data-initialZoom="0.78" data-finalZoom="1" data-text-id="#bannerscollection_zoominout_photoText"><img src="{!! url($slide->present()->thumbSrc(null, null)) !!}" alt="" width="2500" height="1570"/></li>
+<li data-initialZoom="0.78" data-finalZoom="1" data-text-id="#bannerscollection_zoominout_photoText{!! $slide->id !!}"><img src="{!! url($slide->present()->thumbSrc(null, null)) !!}" alt="" width="2500" height="1570"/></li>
