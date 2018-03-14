@@ -62,6 +62,8 @@
     <!-- @include('core::_navbar') -->
 
     {{-- <script src="@if(app()->environment('production')){{ asset(elixir('js/public.js')) }}@else{{ asset('js/public.js') }}@endif"></script> --}}
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     @stack('js')
     <script src="@if(app()->environment('production')){{ asset(elixir('js/common.js')) }}@else{{ asset('js/common.js') }}@endif"></script>
     @if (Request::input('preview'))

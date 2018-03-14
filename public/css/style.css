@@ -660,6 +660,7 @@ body.main-nav-open {
 }
 .main-content p {
     line-height: 1.5;
+    margin: 0 0 10px;
 }
 @media only screen and (max-width: 999px) {
     .mo-wraper.half .main-content {
@@ -771,6 +772,7 @@ body.main-nav-open {
     overflow: hidden;
 }
 .contact-form input[type="text"],
+.contact-form input[type="email"],
 .contact-form textarea {
     width: 100%;
     background: #E8E9EA;

@@ -37,7 +37,6 @@
         "spatie/laravel-permission": "~2.6.0",
         "spatie/laravel-translatable": "~2.0.0",
         "symfony/event-dispatcher": "~3.0",
-        "typicms/blocks": "~3.0.0",
         "typicms/contacts": "^3.0",
         "typicms/core": "~3.0.0",
         "typicms/dashboard": "~3.0.0",

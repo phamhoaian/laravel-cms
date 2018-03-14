@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "202f0d61536870c671d6c7088a4a55ca",
+    "content-hash": "c854161b88a4645183663a9872443d69",
     "packages": [
         {
             "name": "adamwathan/bootforms",
@@ -3118,41 +3118,6 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2017-11-27T11:13:29+00:00"
-        },
-        {
-            "name": "typicms/blocks",
-            "version": "3.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TypiCMS/Blocks.git",
-                "reference": "48d29c52d46264053aea88fb347eace02b492a2d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TypiCMS/Blocks/zipball/48d29c52d46264053aea88fb347eace02b492a2d",
-                "reference": "48d29c52d46264053aea88fb347eace02b492a2d",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "~5.5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "TypiCMS\\Modules\\Blocks\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Samuel De Backer",
-                    "email": "sdebacker@gmail.com"
-                }
-            ],
-            "time": "2018-01-09T09:59:51+00:00"
         },
         {
             "name": "typicms/contacts",

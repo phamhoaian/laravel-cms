@@ -19,8 +19,6 @@
 @endpush
 
 @push('js')
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <script src="{{ asset('js/bannerscollection_zoominout.js') }}"></script>
     <script src="{{ asset('js/jquery.ui.touch-punch.min.js') }}"></script>
     <script src="{{ asset('js/wow.min.js') }}"></script>
