@@ -196,6 +196,7 @@ return [
         TypiCMS\Modules\Projects\Providers\ModuleProvider::class,
         TypiCMS\Modules\Engagements\Providers\ModuleProvider::class,
         TypiCMS\Modules\Careers\Providers\ModuleProvider::class,
+        TypiCMS\Modules\Galleries\Providers\ModuleProvider::class,
 
         /*
          * TypiCMS Core Service Provider...
