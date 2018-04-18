@@ -1,6 +1,12 @@
-<li class="galleries-item">
-    <a class="galleries-item-link" href="{{ route($lang.'::gallery', $gallery->slug) }}" title="{{ $gallery->title }}">
-        <span class="galleries-item-title">{!! $gallery->title !!}</span>
-        <span class="galleries-item-image">{!! $gallery->present()->thumb(null, 200) !!}</span>
+<li class="gallery">
+    {{-- <a href="{{ route($lang.'.galleries.slug', $gallery->slug) }}" class="mo-brand-logo"> --}}
+    <a href="javascript:void(0)" class="mo-brand-logo">
+        @if ($gallery->image)
+			<img src="{!! url($gallery->present()->thumbSrc()) !!}" alt="{{ $gallery->title }}">
+        @endif
     </a>
+    <div class="mo-branch-info">
+        <div class="title">{{ $gallery->title }}</div>
+        <div class="summary">{{ $gallery->summary }}</div>
+    </div>
 </li>
