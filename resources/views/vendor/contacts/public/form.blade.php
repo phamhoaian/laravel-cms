@@ -28,7 +28,8 @@
         });
       }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjpAJ-nMrD7Db5kEZ3WgKT5RsFhPOF86s&callback=initMap" />
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjpAJ-nMrD7Db5kEZ3WgKT5RsFhPOF86s&callback=initMap">
+    </script>
 @endpush
 
 @section('content')
@@ -37,7 +38,7 @@
     <nav class="content-nav fixed">
         <ul class="parent">
             <li>
-                <span>@lang('Company')</span>
+                <span>@lang('db.Company')</span>
                 {!! Menus::render('company') !!}
             </li>
         </ul>
@@ -78,12 +79,12 @@
                 </div>
 
                 <div class="right">
-                    <div class="contact-form">
+                    <div class="contact-form" style="margin-bottom: 30px">
                         {!! BootForm::open()->action(route($lang.'::store-contact'))->multipart() !!}
 
                         @include('contacts::_fields')
 
-                        <input class="btn-primary btn btn-block btn-lg" type="submit" value="{{ __('Send') }}">
+                        <input class="btn-primary btn btn-block btn-lg" type="submit" value="@lang('db.Send')">
 
                         {!! BootForm::close() !!}
                     </div>

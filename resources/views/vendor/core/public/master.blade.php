@@ -19,11 +19,12 @@
 
     {{-- <link href="{{ app()->isLocal() ? asset('css/public.css') : asset(elixir('css/public.css')) }}" rel="stylesheet"> --}}
     <link href="{{ app()->isLocal() ? asset('css/normalize.css') : asset(elixir('css/normalize.css')) }}" rel="stylesheet">
+
+    @stack('css')
+    
     <link href="{{ app()->isLocal() ? asset('css/style.css') : asset(elixir('css/style.css')) }}" rel="stylesheet">
 
     @include('core::public._feed-links')
-
-    @stack('css')
 
     @include('core::public._google_analytics_code')
 

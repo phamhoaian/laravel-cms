@@ -7,7 +7,7 @@
 				<span class="btn-close-line"></span>
 			</a>
 			<dl class="career">
-				<h3>@lang('Open positions')</h3>
+				<h3>@lang('db.Open positions')</h3>
 				@include('careers::public._list', ['items' => $items])
 			</dl>
 		</div>

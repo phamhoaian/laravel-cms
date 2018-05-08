@@ -37,7 +37,7 @@
 	<nav class="content-nav fixed">
 		<ul class="parent">
 			<li>
-				<span>@lang('Careers')</span>
+				<span>@lang('db.Careers')</span>
 				{!! Menus::render('career') !!}
 			</li>
 		</ul>

@@ -5,10 +5,10 @@
 <div class="row">
 
     <div class="col-sm-5">
-        {!! BootForm::text('<span class="fa fa-asterisk"></span> '.__('First name'), 'first_name') !!}
+        {!! BootForm::text('<span class="fa fa-asterisk"></span> '.Lang::get('db.First name'), 'first_name') !!}
     </div>
     <div class="col-sm-5">
-        {!! BootForm::text('<span class="fa fa-asterisk"></span> '.__('Last name'), 'last_name') !!}
+        {!! BootForm::text('<span class="fa fa-asterisk"></span> '.Lang::get('db.Last name'), 'last_name') !!}
     </div>
 
 </div>
@@ -20,7 +20,8 @@
 {{-- BootForm::text(__('Postcode'), 'postcode') --}}
 {{-- BootForm::text(__('City'), 'city') --}}
 {{-- BootForm::text(__('Country'), 'country') --}}
-{!! BootForm::text(__('Phone'), 'phone') !!}
+{!! BootForm::text(Lang::get('db.Phone'), 'phone') !!}
 {{-- BootForm::text(__('Mobile'), 'mobile') --}}
 {{-- BootForm::text(__('Fax'), 'fax') --}}
-{!! BootForm::textarea('<span class="fa fa-asterisk"></span> '.__('Message'), 'message') !!}
+{!! BootForm::textarea('<span class="fa fa-asterisk"></span> '.Lang::get('db.Message'), 'message') !!}
+{!! BootForm::file(Lang::get('db.Attached file'), 'attached') !!}

@@ -49,7 +49,7 @@
         {!! TranslatableBootForm::checkbox(__('Published'), 'status') !!}
         {!! TranslatableBootForm::textarea(__('Body'), 'body')->addClass('ckeditor') !!}
 
-        @can ('see-all-page_sections')
+        {{-- @can ('see-all-page_sections')
         @if ($model->id)
 
         <a href="{{ route('admin::create-page_section', $model->id) }}" title="{{ __('New page section') }}" class="btn-back">
@@ -100,7 +100,7 @@
 
         </div>
         @endif
-        @endcan
+        @endcan --}}
 
     </div>
 

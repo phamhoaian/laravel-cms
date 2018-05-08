@@ -68,6 +68,11 @@ skins available:
 	overflow:hidden;
 }
 
+.bannerscollection_zoominout .contentHolderUnit img {
+	height: auto !important;
+	top: -6px !important;
+}
+
 
 .mycanvas {
 	/*border:1px solid #ff0000;*/

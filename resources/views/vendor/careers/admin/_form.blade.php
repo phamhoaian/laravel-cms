@@ -6,7 +6,7 @@
 
 {!! BootForm::hidden('id') !!}
 
-@include('files::admin._files-selector')
+{{-- @include('files::admin._files-selector') --}}
 
 @include('core::form._title-and-slug')
 {!! TranslatableBootForm::hidden('status')->value(0) !!}

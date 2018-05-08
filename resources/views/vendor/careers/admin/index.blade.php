@@ -8,7 +8,7 @@
 
     @include('core::admin._button-create', ['module' => 'careers'])
 
-    <h1>@lang('Careers')</h1>
+    <h1>@lang('db.Careers')</h1>
 
     <div class="btn-toolbar">
         @include('core::admin._button-select')
